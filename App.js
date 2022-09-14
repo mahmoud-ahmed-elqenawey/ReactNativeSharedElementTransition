@@ -8,6 +8,9 @@
 
 import React from 'react';
 import {SafeAreaView, StatusBar, Text} from 'react-native';
+import {enableScreens} from 'react-native-screens';
+import {createSharedElementStackNavigator} from 'react-navigation-shared-element';
+
 const App = () => {
   return (
     <SafeAreaView>
